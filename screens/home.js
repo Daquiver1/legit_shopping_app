@@ -18,7 +18,7 @@ const home = ({navigation}) => {
             <View style={{ flexDirection: "row", justifyContent: "space-evenly" }}>
                 <View>
                     <View style={styles.view3}>
-                        <Text style={styles.text2}>Daquiver's</Text>
+                        <Text style={styles.text2}>Daquiver's </Text>
                          <Text style={styles.text3}>Boards</Text>
                     </View>
 
@@ -33,8 +33,6 @@ const home = ({navigation}) => {
 
             <Text style={styles.button1Text}>All</Text>
             <Text style={styles.button2Text}>Boards</Text>
-            <Text style={styles.button2Text}>Cookies</Text>
-            <Text style={styles.button2Text}>Promotions</Text>
         </View>
 
         <TextInput style={styles.textInput} placeholder={'Search'} />
@@ -131,7 +129,7 @@ const home = ({navigation}) => {
           </ScrollView>
             <View style={styles.iconView}>
               <Ionicons name="settings-outline" size={26} color="black" onPress={() => {navigation.navigate("Settings")}} />
-                <Ionicons name="home-outline" size={26} color="black" onPress={() => {navigation.navigate("ProductData")  }} />
+                <Ionicons name="home-outline" size={26} color="black" onPress={() => {navigation.navigate("Home")  }} />
                   <View style={{ flexDirection: "row", justifyContent: "space-evenly" }}>
                 <Ionicons name="cart-outline" size={26} color="black" onPress={() => {navigation.navigate("cart") }} />
             </View>
@@ -194,7 +192,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
       },
       textInput: {
-        backgroundColor: '#fff',
+        //backgroundColor: '#fff',
         textAlign: 'center',
         alignItems: 'center',
         justifyContent: 'center',

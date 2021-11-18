@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, Image, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, Text, Image, TouchableOpacity, View, ImageBackground } from 'react-native';
 import { Ionicons, FontAwesome, AntDesign } from "@expo/vector-icons";
 import * as Animatable from 'react-native-animatable';
 
@@ -55,34 +55,7 @@ export default function productpage6({navigation}) {
 
 
         </View>
-        <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
-
-          <Text style={{ fontSize: 17, fontWeight: '500', color: 'gray', marginBottom: 7 }}>Sizes Available</Text>
-
-          <Text style={{ fontSize: 17, fontWeight: '500', color: 'gray' }}>Ratings</Text>
-
-        </View>
-
-
-        <View style={{ flexDirection: 'row', justifyContent: 'space-between', width: '100%', marginBottom: 20 }}>
-
-          <View style={{ flexDirection: 'row', justifyContent: 'space-between', width: '35%' }}>
-
-            <TouchableOpacity style={styles.sizeContainer}><Text style={styles.sizeText}>R</Text></TouchableOpacity>
-            <TouchableOpacity style={styles.sizeContainer}><Text style={styles.sizeText}>L</Text></TouchableOpacity>
-
-          </View>
-
-          <View style={{ flexDirection: 'row', justifyContent: 'space-between', }}>
-
-            <Ionicons name="star" size={22} color="#66b2ff" />
-            <Ionicons name="star" size={22} color="#66b2ff" />
-            <Ionicons name="star" size={22} color="#66b2ff" />
-            <Ionicons name="star" size={22} color="#66b2ff" />
-            <Ionicons name="star-half-sharp" size={22} color="#66b2ff" />
-
-          </View>
-        </View>
+        
 
         <View style={{ height: '27%', width: '100%', borderRadius: '10', marginBottom: 35 }}>
           <Text style={{ fontSize: 18, fontWeight: '500', color: 'gray', marginBottom: 8 }}>Item Description</Text>

@@ -22,14 +22,6 @@ export default function signup({navigation}) {
       <View style={styles.inputView}>
         <TextInput
           style={styles.TextInput}
-          placeholder="Full Name"
-          placeholderTextColor="#000000"
-          onChangeText={(name) => setName(name)}
-        />
-      </View>
-      <View style={styles.inputView}>
-        <TextInput
-          style={styles.TextInput}
           placeholder="Email."
           placeholderTextColor="#000000"
           onChangeText={(email) => setEmail(email)}
@@ -43,16 +35,6 @@ export default function signup({navigation}) {
           placeholderTextColor="#000000"
           secureTextEntry={true}
           onChangeText={(password) => setPassword(password)}
-        />
-      </View>
-
-      <View style={styles.inputView}>
-        <TextInput
-          style={styles.TextInput}
-          placeholder="Confirm Password."
-          placeholderTextColor="#000000"
-          secureTextEntry={true}
-          onChangeText={(confirmpassword) => setConfirmPassword(confirmpassword)}
         />
       </View>
 

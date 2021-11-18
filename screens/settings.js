@@ -3,7 +3,7 @@ import {View, Text, Button, TextInput,StyleSheet, Image, ScrollView, TouchableOp
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 import Icon1 from "react-native-vector-icons/FontAwesome5";
 import Icon2 from "react-native-vector-icons/AntDesign";
-import Logo from "./../assets/logo.png";
+import Logo from "./../assets/splash.png";
 
 const settings = ({navigation}) => {
 

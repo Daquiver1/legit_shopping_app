@@ -6,7 +6,8 @@ import login from './screens/login';
 import home from './screens/home';
 import signup from './screens/signup';
 import settings from "./screens/settings";
-import productdata from './screens/productdata';
+import logout from "./screens/logout";
+import about from "./screens/about";
 import productpage1 from './screens/productpage1';
 import productpage2 from './screens/productpage2';
 import productpage3 from './screens/productpage3';
@@ -22,13 +23,14 @@ const Stack = createNativeStackNavigator ();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home" screenOptions={{headerShown:false}}>
+      <Stack.Navigator initialRouteName="Logout" screenOptions={{headerShown:false}}>
         <Stack.Screen name="Splash" component={splash_start} />
         <Stack.Screen name="Login" component={login} />
         <Stack.Screen name="Home" component={home} />
         <Stack.Screen name="Signup" component={signup} />
         <Stack.Screen name="Settings" component={settings} />
-        <Stack.Screen name="ProductData" component={productdata} />
+        <Stack.Screen name="About" component={about} />
+        <Stack.Screen name="Logout" component={logout} />
         <Stack.Screen name="productpage1" component={productpage1} />
         <Stack.Screen name="productpage2" component={productpage2} />
         <Stack.Screen name="productpage3" component={productpage3} />
