@@ -93,7 +93,7 @@ const styles = StyleSheet.create({
   inputView: {
     flexDirection: "row",
     paddingLeft: 12,
-    backgroundColor: "#66b2ff",
+    backgroundColor: "#778899",
     borderRadius: 30,
     width: "100%",
     height: 45,
@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     marginTop: 10,
     marginBottom: 30,
-    backgroundColor: "#66b2ff",
+    backgroundColor: "#778899",
   },
 
   loginText:{

@@ -23,7 +23,7 @@ export default function signup({navigation}) {
         <TextInput
           style={styles.TextInput}
           placeholder="Full Name"
-          placeholderTextColor="#808080"
+          placeholderTextColor="#000000"
           onChangeText={(name) => setName(name)}
         />
       </View>
@@ -31,7 +31,7 @@ export default function signup({navigation}) {
         <TextInput
           style={styles.TextInput}
           placeholder="Email."
-          placeholderTextColor="#808080"
+          placeholderTextColor="#000000"
           onChangeText={(email) => setEmail(email)}
         />
       </View>
@@ -40,7 +40,7 @@ export default function signup({navigation}) {
         <TextInput
           style={styles.TextInput}
           placeholder="Password."
-          placeholderTextColor="#808080"
+          placeholderTextColor="#000000"
           secureTextEntry={true}
           onChangeText={(password) => setPassword(password)}
         />
@@ -50,7 +50,7 @@ export default function signup({navigation}) {
         <TextInput
           style={styles.TextInput}
           placeholder="Confirm Password."
-          placeholderTextColor="#808080"
+          placeholderTextColor="#000000"
           secureTextEntry={true}
           onChangeText={(confirmpassword) => setConfirmPassword(confirmpassword)}
         />
@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   inputView: {
-    backgroundColor: "#66b2ff",
+    backgroundColor: "#778899",
     borderRadius: 30,
     width: "70%",
     height: 45,
@@ -107,12 +107,12 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     marginTop: 40,
-    backgroundColor: "#66b2ff",
+    backgroundColor: "#778899",
     marginBottom:20,
   },
 
   loginText:{
-      color: "#808080"
+      color: "#000000"
   }
 
 });

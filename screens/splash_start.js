@@ -55,7 +55,7 @@ loginBtn: {
     height: 50,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#66b2ff",
+    backgroundColor: "#778899",
     margin: 20,
   },
 
@@ -64,7 +64,7 @@ loginBtn: {
     height: 50,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#66b2ff",
+    backgroundColor: "#778899",
     margin: 20,
     marginTop: 10,
     marginBottom: 40,

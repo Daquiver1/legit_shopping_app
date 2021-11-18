@@ -15,9 +15,8 @@ const home = ({navigation}) => {
             <View style={{ flexDirection: "row", justifyContent: "space-evenly" }}>
                 <View>
                     <View style={styles.view3}>
-                        <Image style={styles.img} source={require("./../assets/cake.png")} />
-                        <Text style={styles.text2}>Lormy's</Text>
-                         <Text style={styles.text3}>Confectionery</Text>
+                        <Text style={styles.text2}>Daquiver's</Text>
+                         <Text style={styles.text3}>Boards</Text>
                     </View>
 
                  </View>
@@ -30,7 +29,7 @@ const home = ({navigation}) => {
         <View style={{ flexDirection: 'row', justifyContent: 'space-evenly', width: 370, marginBottom: 20 }}>
 
             <Text style={styles.button1Text}>All</Text>
-            <Text style={styles.button2Text}>Cakes</Text>
+            <Text style={styles.button2Text}>Boards</Text>
             <Text style={styles.button2Text}>Cookies</Text>
             <Text style={styles.button2Text}>Promotions</Text>
         </View>
@@ -42,7 +41,7 @@ const home = ({navigation}) => {
             <Animatable.View animation="slideInDown" style={{ height: 1000 }}>
               <View style={{ flexDirection: 'row', height: 150, width: '100%', justifyContent: 'space-evenly', marginBottom: 15 }}>
                 <TouchableOpacity style={styles.productview1} onPress={() => { navigation.navigate("productpage1") }}>
-                    <Image style={styles.image} source={require("./../assets/IMG1.jpg")}/>
+                    <Image style={styles.image} source={require("./../assets/surf1.jpg")}/>
                     <View style={{ top: 0, alignItems: 'center' }}>
                       <Text style={{ fontWeight: '600', fontSize: 16, color: '#3f3b3b' }}>RED VELVET</Text>
                       <Text style={{ fontWeight: '600', fontSize: 16, color: '#3f3b3b', marginBottom: 5 }}>CAKE</Text>
@@ -51,7 +50,7 @@ const home = ({navigation}) => {
                 </TouchableOpacity>
 
         <TouchableOpacity style={styles.productview2} onPress={() => { navigation.navigate("productpage2") }}>
-          <Image style={styles.image} source={require("./../assets/IMG2.jpg")}/>
+          <Image style={styles.image} source={require("./../assets/surf2.jpg")}/>
             <View style={{ top: 0, alignItems: 'center' }}>
                 <Text style={{ fontWeight: '600', fontSize: 16, color: '#3f3b3b' }}>CHOCOLATE</Text>
                 <Text style={{ fontWeight: '600', fontSize: 16, color: '#3f3b3b', marginBottom: 5 }}>CAKE</Text>
@@ -62,7 +61,7 @@ const home = ({navigation}) => {
 
         <View style={{ flexDirection: 'row', height: 150, width: '100%', justifyContent: 'space-evenly', marginBottom: 15 }}>
         <TouchableOpacity style={styles.productview1} onPress={() => { navigation.navigate("productpage3") }}>
-          <Image style={styles.image} source={require("./../assets/IMG3.jpg")}/>
+          <Image style={styles.image} source={require("./../assets/surf3.jpg")}/>
 
         <View style={{ top: 0, alignItems: 'center' }}>
             <Text style={{ fontWeight: '600', fontSize: 16, color: '#3f3b3b' }}>VANILLA</Text>
@@ -71,7 +70,7 @@ const home = ({navigation}) => {
           </View>
         </TouchableOpacity>
         <TouchableOpacity style={styles.productview2} onPress={() => { navigation.navigate("productpage4")}}>
-        <Image style={styles.image} source={require("./../assets/IMG4.jpg")}/>
+        <Image style={styles.image} source={require("./../assets/surf4.jpg")}/>
 
           <View style={{ top: 0, alignItems: 'center' }}>
             <Text style={{ fontWeight: '600', fontSize: 16, color: '#3f3b3b' }}>CINAMMON</Text>
@@ -83,7 +82,7 @@ const home = ({navigation}) => {
 
         <View style={{ flexDirection: 'row', height: 150, width: '100%', justifyContent: 'space-evenly', marginBottom: 20 }}>
         <TouchableOpacity style={styles.productview1} onPress={() => { navigation.navigate("productpage5")}}>
-          <Image style={styles.image} source={require("./../assets/IMG5.jpg")}/>
+          <Image style={styles.image} source={require("./../assets/surf5.jpg")}/>
 
           <View style={{ top: 0, alignItems: 'center' }}>
             <Text style={{ fontWeight: '600', fontSize: 16, color: '#3f3b3b' }}>VANILLA</Text>
@@ -93,34 +92,12 @@ const home = ({navigation}) => {
           </View>
           </TouchableOpacity>
         <TouchableOpacity style={styles.productview2} onPress={() => { navigation.navigate("productpage6")}}>
-          <Image style={styles.image} source={require("./../assets/IMG6.jpg")}/>
+          <Image style={styles.image} source={require("./../assets/surf6.jpg")}/>
 
           <View style={{ top: 0, alignItems: 'center' }}>
             <Text style={{ fontWeight: '600', fontSize: 16, color: '#3f3b3b' }}>OAT</Text>
             <Text style={{ fontWeight: '600', fontSize: 16, color: '#3f3b3b', marginBottom: 5 }}>COOKIE</Text>
             <Text style={{ fontWeight: '700', fontSize: 20, marginBottom: -15 }}><Text style={{ color: `#02c38e` }}>$</Text>15</Text>
-          </View>
-        </TouchableOpacity>
-
-        </View>
-        <View style={{ flexDirection: 'row', height: 150, width: '100%', justifyContent: 'space-evenly', marginBottom: 15 }}>
-        <TouchableOpacity style={styles.productview1} onPress={() => { navigation.navigate("productpage7")}}>
-          <Image style={styles.image} source={require("./../assets/IMG7.jpg")}/>
-
-          <View style={{ top: 0, alignItems: 'center' }}>
-            <Text style={{ fontWeight: '600', fontSize: 16, color: '#3f3b3b' }}>CHOCOLATE</Text>
-            <Text style={{ fontWeight: '600', fontSize: 16, color: '#3f3b3b', marginBottom: 5 }}>COOKIE</Text>
-            <Text style={{ fontWeight: '700', fontSize: 20, marginBottom: -15 }}><Text style={{ color: '#02c38e'}}>$</Text>20</Text>
-          </View>
-
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.productview2} onPress={() => { navigation.navigate("productpage8")}}>
-        <Image style={styles.image} source={require("./../assets/IMG8.jpg")}/>
-
-          <View style={{ top: 0, alignItems: 'center' }}>
-            <Text style={{ fontWeight: '600', fontSize: 16, color: '#3f3b3b' }}>CHOCOLATE</Text>
-            <Text style={{ fontWeight: '600', fontSize: 16, color: '#3f3b3b', marginBottom: 5 }}>DONUT</Text>
-            <Text style={{ fontWeight: '700', fontSize: 20, marginBottom: -15 }}><Text style={{ color: '#02c38e' }}>$</Text>20</Text>
           </View>
         </TouchableOpacity>
 
