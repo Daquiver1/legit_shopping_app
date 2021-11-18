@@ -9,6 +9,7 @@ export default function productpage5({navigation}) {
   
   return (
     <View style={styles.container}>
+    <ImageBackground style={{height: "100%"}} source={require("./../assets/splash.jpg")}>
 
 
       <Animatable.View animation="fadeInDownBig" style={{ height: '35%', width: '100%', borderRadius: 25, marginBottom: 15, backgroundColor: 'lightgray', padding: 10 }}>
@@ -21,7 +22,7 @@ export default function productpage5({navigation}) {
           </View>
         </View>
         <View style={styles.productView1}>
-            <Image style={styles.image} source={require("./../assets/IMG5.jpg")}/>
+            <Image style={styles.image} source={require("./../assets/surf5.jpg")}/>
         </View>
       </Animatable.View>
 
@@ -101,6 +102,7 @@ export default function productpage5({navigation}) {
         </TouchableOpacity>
 
       </View>
+      </ImageBackground>
 
     </View>
   );
@@ -177,7 +179,7 @@ const styles = StyleSheet.create({
   },
 
   image: {
-    height:900,
-    width: 400,
+    height:200,
+    width: 200,
   },
 })

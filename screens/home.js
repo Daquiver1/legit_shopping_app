@@ -4,11 +4,14 @@ import { Ionicons,AntDesign } from "@expo/vector-icons";
 import * as Animatable from 'react-native-animatable';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+
+
 const home = ({navigation}) => {
     return (
-        
-        <SafeAreaView style={styles.mainContainer}>
+
+      <SafeAreaView style={styles.mainContainer}>
             <ImageBackground style={{height: "100%"}} source={require("./../assets/background.jpg")}>
+        
 
         <View style={{ backgroundColor: 'transparent', paddingTop: 45, marginBottom: 30 }}>
 
@@ -127,7 +130,7 @@ const home = ({navigation}) => {
           </Animatable.View>
           </ScrollView>
             <View style={styles.iconView}>
-              <Ionicons name="settings-outline" size={26} color="black" onPress={() => {navigation.navigate("Login")}} />
+              <Ionicons name="settings-outline" size={26} color="black" onPress={() => {navigation.navigate("Settings")}} />
                 <Ionicons name="home-outline" size={26} color="black" onPress={() => {navigation.navigate("ProductData")  }} />
                   <View style={{ flexDirection: "row", justifyContent: "space-evenly" }}>
                 <Ionicons name="cart-outline" size={26} color="black" onPress={() => {navigation.navigate("cart") }} />

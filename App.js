@@ -15,10 +15,6 @@ import productpage5 from './screens/productpage5';
 import productpage6 from './screens/productpage6';
 import productpage7 from './screens/productpage7';
 import productpage8 from './screens/productpage8';
-import productpage9 from './screens/productpage9';
-import productpage10 from './screens/productpage10';
-import productpage11 from './screens/productpage11';
-import productpage12 from './screens/productpage12';
 import payment from './screens/payment';
 import cart from './screens/cart';
 
