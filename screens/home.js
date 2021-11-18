@@ -38,8 +38,8 @@ const home = ({navigation}) => {
 
 
         <ScrollView vertical={true} showsVerticalScrollIndicator={false}>
-            <Animatable.View animation="slideInDown" style={{ height: 1000 }}>
-              <View style={{ flexDirection: 'row', height: 150, width: '100%', justifyContent: 'space-evenly', marginBottom: 15 }}>
+            <Animatable.View animation="slideInDown" style={{ height: 850 }}>
+              <View style={{ flexDirection: 'row', height: 200, width: '100%', justifyContent: 'space-evenly', marginBottom: 15 }}>
                 <TouchableOpacity style={styles.productview1} onPress={() => { navigation.navigate("productpage1") }}>
                     <Image style={styles.image} source={require("./../assets/surf1.jpg")}/>
                     <View style={{ top: 0, alignItems: 'center' }}>
@@ -59,7 +59,7 @@ const home = ({navigation}) => {
         </TouchableOpacity>
         </View>
 
-        <View style={{ flexDirection: 'row', height: 150, width: '100%', justifyContent: 'space-evenly', marginBottom: 15 }}>
+        <View style={{ flexDirection: 'row', height: 200, width: '100%', justifyContent: 'space-evenly', marginBottom: 15 }}>
         <TouchableOpacity style={styles.productview1} onPress={() => { navigation.navigate("productpage3") }}>
           <Image style={styles.image} source={require("./../assets/surf3.jpg")}/>
 
@@ -80,7 +80,7 @@ const home = ({navigation}) => {
           </TouchableOpacity>
           </View>
 
-        <View style={{ flexDirection: 'row', height: 150, width: '100%', justifyContent: 'space-evenly', marginBottom: 20 }}>
+        <View style={{ flexDirection: 'row', height: 200, width: '100%', justifyContent: 'space-evenly', marginBottom: 20 }}>
         <TouchableOpacity style={styles.productview1} onPress={() => { navigation.navigate("productpage5")}}>
           <Image style={styles.image} source={require("./../assets/surf5.jpg")}/>
 
@@ -103,9 +103,9 @@ const home = ({navigation}) => {
 
         </View>
 
-        <View style={{ flexDirection: 'row', height: 150, width: '100%', justifyContent: 'space-evenly', marginBottom: 15 }}>
-        <TouchableOpacity style={styles.productview1} onPress={() => { navigation.navigate("productpage9")}}>
-          <Image style={styles.image} source={require("./../assets/IMG9.jpg")}/>
+        <View style={{ flexDirection: 'row', height: 200, width: '100%', justifyContent: 'space-evenly', marginBottom: 15 }}>
+        <TouchableOpacity style={styles.productview1} onPress={() => { navigation.navigate("productpage7")}}>
+          <Image style={styles.image} source={require("./../assets/surf7.jpg")}/>
 
           <View style={{ top: 0, alignItems: 'center' }}>
             <Text style={{ fontWeight: '600', fontSize: 16, color: '#3f3b3b' }}>JELLY</Text>
@@ -113,8 +113,8 @@ const home = ({navigation}) => {
             <Text style={{ fontWeight: '700', fontSize: 20, marginBottom: -15 }}><Text style={{ color: '#02c38e' }}>$</Text>25</Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.productview2} onPress={() => { navigation.navigate("productpage10")}}>
-          <Image style={styles.image} source={require("./../assets/IMG10.jpg")}/>
+        <TouchableOpacity style={styles.productview2} onPress={() => { navigation.navigate("productpage8")}}>
+          <Image style={styles.image} source={require("./../assets/surf8.jpg")}/>
 
           <View style={{ top: 0, alignItems: 'center' }}>
             <Text style={{ fontWeight: '600', fontSize: 16, color: '#3f3b3b' }}>BUTTERMILK</Text>
@@ -122,30 +122,7 @@ const home = ({navigation}) => {
             <Text style={{ fontWeight: '700', fontSize: 20, marginBottom: -15 }}><Text style={{ color: '#02c38e' }}>$</Text>5</Text>
           </View>
         </TouchableOpacity>
-        </View>       
-     
-
-        <View style={{ flexDirection: 'row', height: 150, width: '100%', justifyContent: 'space-around' , marginBottom: 15}}>
-        <TouchableOpacity style={styles.productview1} onPress={() => { navigation.navigate("productpage11")}}>
-          <Image style={styles.image} source={require("./../assets/IMG13.jpg")}/>
-
-          <View style={{ top: 0, alignItems: 'center' }}>
-            <Text style={{ fontWeight: '600', fontSize: 16, color: '#3f3b3b' }}>FRENCH</Text>
-            <Text style={{ fontWeight: '600', fontSize: 16, color: '#3f3b3b', marginBottom: 5 }} >CROISSANT</Text>
-            <Text style={{ fontWeight: '700', fontSize: 20, marginBottom: -15 }}><Text style={{ color: '#02c38e' }}>$</Text>10</Text>
-          </View>
-          </TouchableOpacity>
-
-          <TouchableOpacity style={styles.productview2} onPress={() => { navigation.navigate("productpage12")}}>
-          <Image style={styles.image} source={require("./../assets/IMG14.jpg")}/>
-
-          <View style={{ top: 0, alignItems: 'center' }}>
-            <Text style={{ fontWeight: '600', fontSize: 16, color: '#3f3b3b' }}>BACON-EGG</Text>
-            <Text style={{ fontWeight: '600', fontSize: 16, color: '#3f3b3b', marginBottom: 5 }}>CROISSANT</Text>
-            <Text style={{ fontWeight: '700', fontSize: 20, marginBottom: -15 }}><Text style={{ color: '#02c38e' }}>$</Text>15</Text>
-          </View>
-         </TouchableOpacity> 
-           </View>       
+        </View>        
 
           </Animatable.View>
           </ScrollView>
@@ -226,7 +203,7 @@ const styles = StyleSheet.create({
         marginBottom: 15,
       },
       productview1: {
-        backgroundColor: '#fff',
+        // backgroundColor: '#f0ffff',
         padding: 10,
         alignItems: 'center',
         justifyContent: 'center',
@@ -237,7 +214,7 @@ const styles = StyleSheet.create({
       },
       productview2: {
         justifyContent: 'center',
-        backgroundColor: '#fff',
+        // backgroundColor: '#fff',
         padding: 10,
         alignItems: 'center',
         borderRadius: 20,
